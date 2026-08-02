@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Hex Blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="nav-wrap">
+    <div class="logo">Hex<span>Blog</span></div>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <nav><ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="blog.html">Blog Posts</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+  </div>
+</header>
+<section class="hero">
+  <h1>Thoughts, notes & stories</h1>
+  <p>A simple personal blog built with HTML, CSS and JavaScript — as part of the Hex Softwares internship task.</p>
+  <a href="blog.html" class="btn">Write a Post</a>
+</section>
+<main>
+  <h2 class="section-title">Latest Posts</h2>
+  <p class="section-sub">The three most recent posts, pulled straight from your browser's storage.</p>
+  <div class="post-grid" id="home-post-grid"></div>
+</main>
+<footer>Built for <span>Hex Softwares</span> Internship — Project 01: Simple Blog Website</footer>
+<script src="script.js"></script>
+</body>
+</html>
