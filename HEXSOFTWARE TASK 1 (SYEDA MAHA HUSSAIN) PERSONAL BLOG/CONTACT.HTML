@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Hex Blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="nav-wrap">
+    <div class="logo">Hex<span>Blog</span></div>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <nav><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog Posts</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul></nav>
+  </div>
+</header>
+<main>
+  <h2 class="section-title">Get in Touch</h2>
+  <p class="section-sub">Have a question or feedback? Send a message below.</p>
+  <div class="form-card">
+    <div class="form-msg" id="contact-form-msg">✓ Message sent! (Demo only — no backend connected.)</div>
+    <form id="contact-form" novalidate>
+      <div class="field">
+        <label for="contact-name">Name *</label>
+        <input type="text" id="contact-name" placeholder="Your name">
+        <small class="error">Please enter your name.</small>
+      </div>
+      <div class="field">
+        <label for="contact-email">Email *</label>
+        <input type="email" id="contact-email" placeholder="you@example.com">
+        <small class="error">Please enter a valid email address.</small>
+      </div>
+      <div class="field">
+        <label for="contact-message">Message *</label>
+        <textarea id="contact-message" placeholder="Write your message..."></textarea>
+        <small class="error">Message should be at least 10 characters.</small>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</main>
+<footer>Built for <span>Hex Softwares</span> Internship — Project 01: Simple Blog Website</footer>
+<script src="script.js"></script>
+</body>
+</html>
