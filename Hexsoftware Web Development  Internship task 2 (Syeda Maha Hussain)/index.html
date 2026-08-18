@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasty Bites - Menu & Ordering</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">🍽️ Tasty Bites</div>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#cart">Cart</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Order Your Favorite Food Online</h1>
+    <p>Fresh ingredients, fast delivery, unforgettable taste.</p>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-grid" id="menuGrid">
+      <!-- Menu items are injected by script.js -->
+    </div>
+  </section>
+
+  <section id="cart" class="cart-section">
+    <h2>Your Cart</h2>
+    <div id="cartItems" class="cart-items">
+      <p id="emptyCartMsg">Your cart is empty. Add some delicious items!</p>
+    </div>
+    <div class="cart-total">
+      <h3>Total: Rs. <span id="cartTotal">0</span></h3>
+      <button id="checkoutBtn" class="checkout-btn">Checkout</button>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <p>&copy; 2026 Tasty Bites. All rights reserved.</p>
+    <p>Contact: info@tastybites.com | +92-300-0000000</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
